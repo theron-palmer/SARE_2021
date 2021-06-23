@@ -12,4 +12,13 @@ The operating system, regardless of MacOS, PC, or linux should have a specific v
 
 Github is a means of version-controlling computional projects collaboratively. Version control is necessary for proper management of computational projects and software development, as keeping track of all aspects of software can be difficult and mistakes can be made. Through version-controlled development, mistakes are not necessarily catastrophic since all documented versions of your code are retained. Collaboration is generally a necessity in research, and computational research, along with much of the software development it requires, is no different.
 
-**In order to learn how to use git, I would like for you to read the following guide:**\
+**In order to learn how to use git, I would like for you to read through the following guide:** [The github guide](https://guides.github.com/)\
+I would specifically like for you to complete the "Hello World" section. If there is ANYTHING you do not understand please ask me through email at any point. 
+
+## Installing Anaconda (conda)
+
+Software builds upon other software, which means that often times the software that you need to install depends on software written at another time for a specific task, which depends upon software written to do another specific task. Instead of installing all the software necessary to run the one price of software you currently need to use, and handling the system-level settings necessary to effectively use the software, package handlers were created. Anaconda is one of many pakage handlers, somewhat invasive, yet well-documented and easy to use.
+
+**I would like for you to install "miniconda" specifically, not "Anaconda" on your current computer**
+You can find the user guide for this package manager here: [conda user guide and installation](https://docs.conda.io/projects/conda/en/latest/index.html)\
+**You will need to fo to the "User Guide" section on the left tab dropdown.** Read through the documentation. Once you get to the isntallation section, follow the MacOS instructions. Please contact me with ANY questions.
