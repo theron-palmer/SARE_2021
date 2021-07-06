@@ -10,7 +10,7 @@ def main(options):
     gtf_file = options.gtf_file
     print(type(gtf_file)) # what type() of python object is this?
     
-    with open(output_file) as out:
+    with open(output_file,'w') as out:
         # opening the gtf_file as a file object
         with open(gtf_file) as gtf:
             # doing things with the file opened
