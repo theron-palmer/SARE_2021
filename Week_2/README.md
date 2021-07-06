@@ -27,6 +27,6 @@ In this section, I would like for you to programmatically parse and report the d
 3. Print to genes_transcripts.txt the following content for each gene:\
     a. the_gene_id  chromosome_for_the_gene:the_gene_start:the_gene_end:the_gene_strand
 4. Print to genes_transcripts.txt the following content for each transcript:\
-    a. the_gene_id_for_the_transcript chromosome_for_the_transcript:the_transcript_start:the_transcript_end:the_transcript_strand
+    a. the_transcript_id chromosome_for_the_transcript:the_transcript_start:the_transcript_end:the_transcript_strand
 
 There is a tab character between the gene_id and the other element.
