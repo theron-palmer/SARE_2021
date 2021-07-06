@@ -21,13 +21,11 @@ This should be reported in a markdown file.
 
 ## Part 2
 
-In this section I would like for you to write a python script that takes as input an ensembl gene name, a .gtf file, and a junction binding count file. This script should then plot a 1 bin histogram where the number of binders for the junction are added to the gene position in the histogram if the junction overlaps that portion of the gene. The x-axis of this histogram should be integers representing the gene locations from the start of the gene to the end of the gene. 
-
-The python script should be written using jupyter lab as the IDE tool, the histogram should be plotted using matplotlib with help from numpy, and all python libraries and jupyter lab should be installed using anaconda. 
-
-The following tutorial will help you learn how to plot histograms in python using matplotlib: [Python histogram tutorial]:https://realpython.com/python-histograms/
-
-The ensembl gene names to use for testing: ensembl_genes.txt
-The gtf file name: longer_specific_genes.gtf
-junction_binders.txt
+In this section, I would like for you to programmatically parse and report the data from part 1. Specifically, you will\
+1. Read in the .gtf file specific_genes.gtf
+2. Parse each line of the .gtf into a list such that each line is an element in the list
+3. Print to genes_transcripts.txt the following content for each gene:
+    a. the_gene_id chromosome_for_the_gene:the_gene_start:the_gene_end:the_gene_strand
+5. Print to genes_transcripts.txt the following content for each transcript:
+    b. the_gene_id_for_the_transcript chromosome_for_the_transcript:the_transcript_start:the_transcript_end:the_transcript_strand
 
