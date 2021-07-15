@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # What is this ^ for?
+# The line above the previous one says where in your environment to find the python executable. 
 
 def main(options):
     # reading in the output file
