@@ -15,6 +15,7 @@ def main(options):
         with open(gtf_file) as gtf:
             # doing things with the file opened
             gtf_all = gtf.read().splitlines()
+            print(gtf_all)
             # Parse each line of the .gtf into a list such that each line is one element in the list
             # There should be no newlines at the end of each element and this can be done in 1 to 2 lines of code
                 # see functions read() and splitlines() for how to do this
